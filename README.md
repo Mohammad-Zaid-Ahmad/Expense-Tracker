@@ -1,32 +1,57 @@
-**EXPENSE TRACKER**
+# 💰 Expense Tracker
 
+A simple command-line Expense Tracker built with Python that helps users record, view, delete, and calculate their expenses. It uses JSON file handling to save expense records between sessions.
 
+## ✨ Features
 
-• Overview - The user will be able to record expenses, view them, and understand how much they have spent.
+- **Add Expenses:** Record expenses with a category, description, and amount.
+- **View Expenses:** Display all recorded expenses in a formatted table.
+- **Delete Expenses:** Remove an expense by selecting its number.
+- **Calculate Total:** Calculate the total of all recorded expenses.
+- **Data Persistence:** Save and load expenses using JSON.
+- **Input Validation:** Handle invalid inputs to make the program more reliable.
 
+## 🛠️ Technologies Used
 
+- Python 3
+- JSON
+- File Handling
+- Functions
+- Lists and Dictionaries
+- Loops and Exception Handling
 
-Example -
+## 🚀 How to Run
 
-Food       → ₹250
+1. Install Python 3.
+2. Clone or download this repository.
+3. Open the project folder in your terminal.
+4. Run the following command:
 
-Transport  → ₹100
+   ```bash
+   python expense_tracker.py
+   ```
 
-Shopping   → ₹800
+5. Follow the menu displayed in the terminal.
 
+## 📚 What I Learned
 
+Through this project, I practised:
 
-• The program should keep track of these expenses and allow the user to interact with them.
+- Organizing a program using functions
+- Working with lists and dictionaries
+- Validating user input
+- Handling exceptions
+- Reading and writing JSON files
+- Building a menu-driven command-line application
 
+## 🔮 Future Improvements
 
+- Add expense dates
+- Filter expenses by category
+- Generate monthly expense summaries
+- Export expense reports to CSV
+- Add charts and data visualizations
 
-• Features:
+---
 
-
-
-1. Add expense - Ask for category -> Ask for description -> Ask for amount -> Store data
-2. View expense - User checks if there are any expenses -> If yes, show the expenses -> If no, tell the user that they don't have any expenses
-3. Delete expense - Ask for the expense category -> Ask for the expense to be removed -> Remove data
-4. Calculate total
-5. Exit
-
+**Built as a Python learning project.**
